@@ -14,20 +14,14 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="vbraver1@jhu.edu"
+  link="vbraver1@jhu.edu"
 %}
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://www.google.com/maps/place/Malone+Hall,+3400+N+Charles+St,+Baltimore,+MD+21218/data=!4m2!3m1!1s0x89c804de59b4d18d:0x2d92398f0946a9ad?sa=X&ved=1t:242&ictx=111"
 %}
 
 {% include section.html %}
