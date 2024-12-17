@@ -3,6 +3,7 @@ name: Zicheng (Jeremy) Xu
 image: images/photo.jpg
 description: Undergraduate Student
 role: phd
+affiliation: Johns Hopkins University
 links:
   email: zx32@rice.edu 
 ---
