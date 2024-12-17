@@ -1,7 +1,7 @@
 ---
 name: Vladimir Braverman
 image: images/photo.jpg
-role: PI
+role: pi
 affiliation: Johns Hopkins University
 aliases:
   - Vova
