@@ -2,6 +2,7 @@
 name: Guangyao (Thomas) Zheng
 image: images/photo.jpg
 role: phd
+affiliation: Johns Hopkins University
 group: alum
 links:
   github: https://guangyaoz.github.io/
