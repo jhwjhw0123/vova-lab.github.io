@@ -1,11 +1,10 @@
 ---
-name: Sarah Johnson
+name: Zicheng (Jeremy) Xu
 image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+description: Undergraduate Student
+role: phd
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  email: zx32@rice.edu 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
