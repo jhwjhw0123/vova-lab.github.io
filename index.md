@@ -1,9 +1,9 @@
 ---
 ---
 
-# guangyaoz's Website
+# About Us
+We are a group at Johns Hopkins University focusing on AI development in Healthcare.
 
-An engaging 1-3 sentence description of your lab.
 
 {% include section.html %}
 
