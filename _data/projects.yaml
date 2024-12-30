@@ -1,47 +1,25 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: DARPA Shared Experience Lifelong Learning (ShELL)
+  subtitle: Asynchronous Decentralized Federated Lifelong Learning (ADFLL)
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/guangyaoz/ADFLL
+  description: This project presents ADFLL, a novel distributed learning framework enabling asynchronous, lifelong collaboration among agents. Evaluated using deep reinforcement learning for landmark localization across diverse imaging modalities, ADFLL outperformed traditional models in both in-distribution and out-of-distribution tests. It offers a robust, efficient solution for privacy-preserving, real-world applications.
   tags:
-    - resource
-
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
     - publication
 
-- title: Cool Web App
-  subtitle: a subtitle
+- title: Arrhythmia Detection
+  subtitle: Hierarchical Deep Learning for Autonomous Multi-label Arrhythmia Detection and Classification on Real-world Wearable ECG Data
+  group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://journals.sagepub.com/doi/full/10.1177/20552076241278942
+  description: This project introduces a CNN+BiLSTM with Attention framework for detecting and classifying arrhythmias in noisy, real-world wearable ECG data. The model achieved 95% accuracy in binary classification and 88% in multi-label classification on a proprietary dataset, outperforming state-of-the-art baselines. It enables real-time monitoring, reduces cardiologist workloads, and supports personalized treatment.
   tags:
-    - software
+    - publication
 
-- title: Cool Web Server
-  subtitle: a subtitle
+- title: Biomarker Stroke Prediction
+  subtitle: Mitochondrial Dysfunction as a Biomarker for Stroke in CF-LVAD
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://journals.lww.com/asaiojournal/abstract/9900/machine_learning_assisted_stroke_prediction_in.586.aspx
+  description: This study identifies mitochondrial oxidative phosphorylation (OxPhos) abnormalities as a potential predictor of stroke in CHF patients undergoing CF-LVAD implantation. Analysis of OxPhos proteins in blood leukocytes revealed significant reductions in patients with prior strokes. Machine learning models predicted postoperative stroke risk with an AUC of 0.93, suggesting OxPhos protein levels as valuable biomarkers for stroke prediction in this population.
   tags:
-    - software
+    - publication
