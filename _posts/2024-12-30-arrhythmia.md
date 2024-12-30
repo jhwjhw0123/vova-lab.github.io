@@ -19,6 +19,13 @@ To tackle these challenges, we developed a novel hierarchical deep learning mode
 2. A multi-label classification module to categorize arrhythmia events across combinations of beat and rhythm types.
 The model was trained and evaluated on a proprietary dataset, achieving state-of-the-art performance metrics:
 
+{%
+  include figure.html
+  image="images/arrhythmia.png"
+  caption="(A) to (D) is a flowchart of the proposed framework. (C) to (D) are proposed concepts of a hierarchical approach. (A) Multi-labeled wireless ECG arrhythmia raw data, (B) 4-beat input data after preprocessing, (C) Binary classification model for normal heartbeat and arrhythmia classification, (D) Multi-class, multi-label arrhythmia classification model, (E) Detailed structure of the proposed CNN + BiLSTM with attention model."
+  width="400px"
+%}
+
 *Binary Classification: Accuracy: 95%, F1-score: 0.838, AUC: 0.906.
 *Multi-label Classification: Accuracy: 88%, F1-score: 0.736, AUC: 0.875.
 We benchmarked our framework against strong baselines, including CNN+BiGRU with Attention, ConViT, EfficientNet, and ResNet, as well as previous state-of-the-art methods, demonstrating its superior performance.
