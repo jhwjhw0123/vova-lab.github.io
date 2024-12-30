@@ -2,10 +2,13 @@
 title: Arrhythmia Detection and ECG Explainability
 author: Guangyao Zheng
 tags:
-  - Distributed Learning
-  - Continual Learning
-  - Medical Imaging
-  - Low-compute Optimization
+  - Personalized Healthcare
+  - Multi-label Classification
+  - Wearable Device
+  - Cardiovascular Health
+  - Explainability
+  - Interpretability
+
 ---
 
 This project addresses the critical challenges of arrhythmia detection and classification, particularly in the context of wearable electrocardiogram (ECG) monitoring devices. Unlike clinically controlled environments, wearable devices operate in noisy, real-world conditions, which complicates the accurate identification of arrhythmias. Additionally, the inherent imbalance in the ratio of normal heartbeats to arrhythmic ones, along with the diverse combinations of arrhythmia types, further compounds the difficulty of the task.
