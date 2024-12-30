@@ -39,39 +39,56 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Adfll | random lab site</title>
+<title>Asynchronous Decentralized Federated Lifelong Learning (ADFLL) | random lab site</title>
 
 <link rel="icon" href="/vova-lab.github.io/images/icon.png">
 
-<meta name="title" content="Adfll">
+<meta name="title" content="Asynchronous Decentralized Federated Lifelong Learning (ADFLL)">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="Adfll">
+<meta property="og:title" content="Asynchronous Decentralized Federated Lifelong Learning (ADFLL)">
 <meta property="og:site_title" content="random lab site">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://guangyaoz.github.io/vova-lab.github.io">
 <meta property="og:image" content="/vova-lab.github.io/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Adfll">
+<meta property="twitter:title" content="Asynchronous Decentralized Federated Lifelong Learning (ADFLL)">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://guangyaoz.github.io/vova-lab.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/vova-lab.github.io/images/share.jpg">
 
 
-  <meta property="og:type" content="website">
+  <meta name="author" content='&lt;p&gt;This project introduces the Asynchronous Decentralized Federated Lifelong Learning (ADFLL) framework, an innovative approach to federated learning that addresses the limitations of synchronous training schedules and the lack of lifelong learning in conventional machine learning frameworks for medical applications. ADFLL enables asynchronous and continual learning across agents, allowing them to leverage both their own experiences and knowledge shared by others. The framework was evaluated using deep reinforcement learning (DRL) for landmark localization tasks across diverse imaging modalities, orientations, and sequences. Experimental results demonstrated that ADFLL outperforms baseline models in collaborative learning, showing superior performance on both in-distribution and out-of-distribution test sets. This robust, efficient, and flexible framework is well-suited for deployment in real-world applications requiring privacy-preserving and lifelong collaborative learning. Paper published in &lt;em&gt;Medical Imaging with Deep Learning&lt;/em&gt; (MIDL) 2024, &lt;a href="https://openreview.net/forum?id=FbM7sDDAZ4"&gt;Towards a Collective Medical Imaging AI: Enabling Continual Learning from Peers&lt;/a&gt;. Github repo: https://github.com/guangyaoz/ADFLL&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/ADFLL_Concept_Figure.png" alt="plain image" /&gt;&lt;/p&gt;
+
+&lt;p&gt;To further enhance the efficiency of the ADFLL framework, we integrate a reward distribution-preserving coreset compression technique for selective experience replay buffers. This method compresses stored experiences, reducing computational overhead while maintaining the model’s ability to mitigate catastrophic forgetting. Evaluated on tasks such as ventricle localization in the BRATS dataset and landmark localization in whole-body MRI, the compressed lifelong learning models demonstrated competitive performance with minimal impact on accuracy. For instance, the 10x compressed models achieved mean pixel distances close to conventional lifelong learning models, highlighting the viability of coreset compression in resource-constrained settings. This addition reinforces ADFLL’s scalability and adaptability to real-world applications. Paper published in &lt;em&gt;Medical Imaging with Deep Learning&lt;/em&gt; (MIDL) 2023, &lt;a href="[https://openreview.net/forum?id=FbM7sDDAZ4](https://proceedings.mlr.press/v227/zheng24a.html)"&gt;Selective experience replay compression using coresets for lifelong deep reinforcement learning in medical imaging&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To further address the challenges of deploying the ADFLL framework on low-compute edge devices in rapidly evolving imaging environments, we developed three image coreset algorithms for compressing and denoising medical images in selective experience replay. These include neighborhood averaging, neighborhood sensitivity-based sampling, and maximum entropy coresets, which achieve 27x compression while maintaining strong performance in localizing anatomical landmarks on DIXON water and fat MRI images. Notably, the maximum entropy coreset outperformed conventional lifelong learning models with an average distance error of 11.97±12.02 compared to 19.24±50.77, showcasing its potential to enhance efficiency and adaptability in real-world medical imaging applications. Paper on arXiv: &lt;a href="https://arxiv.org/abs/2306.05310"&gt;A framework for dynamically training and adapting deep reinforcement learning models to different, low-compute, and continuously changing radiology deployment environments&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This project is funded by DARPA, part of the Shared Experience Lifelong Learning (&lt;a href="https://intelligencecommunitynews.com/darpa-launches-shell-program/"&gt;ShELL&lt;/a&gt;) program. Collectively, we have published a paper on &lt;em&gt;Nature Machine Intelligence&lt;/em&gt;, &lt;a href="https://rdcu.be/dB9zt"&gt;A collective AI via lifelong learning and sharing at the edge&lt;/a&gt;&lt;/p&gt;
+'>
+  <meta property="og:type" content="article">
+  <meta property="og:updated_time" content="2024-12-30T19:06:40+00:00">
+  <meta property="article:published_time" content="2024-12-30T00:00:00+00:00">
+  <meta property="article:modified_time" content="2024-12-30T19:06:40+00:00">
+  <meta name="revised" content="2024-12-30T19:06:40+00:00">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "WebSite",
+      "@type": "BlogPosting",
+      "author": { "@type": "Person", "name": "Asynchronous Decentralized Federated Lifelong Learning (ADFLL)" },
+      "datePublished": "2024-12-30T00:00:00+00:00",
+      "dateModified": "2024-12-30T19:06:40+00:00",
     
-    "name": "Adfll",
+    "name": "Asynchronous Decentralized Federated Lifelong Learning (ADFLL)",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Adfll",
+    "headline": "Asynchronous Decentralized Federated Lifelong Learning (ADFLL)",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/vova-lab.github.io/images/icon.png" }
@@ -460,9 +477,17 @@
 -->
 
 
-<h1 class="center">Adfll</h1>
+<h1 class="center">Asynchronous Decentralized Federated Lifelong Learning (ADFLL)</h1>
 
 <div class="post-info">
+  
+    
+    
+      <span data-tooltip="Author">
+        <i class="icon fa-solid fa-feather-pointed"></i>
+        <span>Guangyao Zheng</span>
+      </span>
+    
   
 
   
@@ -477,6 +502,30 @@
 
   
 </div>
+
+
+  
+
+
+  <div class="tags" data-link="/vova-lab.github.io/blog">
+    
+      <a href="blog?search=%22tag:%20distributed-learning%22" class="tag" data-tooltip='Show items with the tag "distributed-learning"'>
+        distributed-learning
+      </a>
+    
+      <a href="blog?search=%22tag:%20continual-learning%22" class="tag" data-tooltip='Show items with the tag "continual-learning"'>
+        continual-learning
+      </a>
+    
+      <a href="blog?search=%22tag:%20medical-imaging%22" class="tag" data-tooltip='Show items with the tag "medical-imaging"'>
+        medical-imaging
+      </a>
+    
+      <a href="blog?search=%22tag:%20low-compute-optimization%22" class="tag" data-tooltip='Show items with the tag "low-compute-optimization"'>
+        low-compute-optimization
+      </a>
+    
+  </div>
   </section>
 
   
@@ -491,7 +540,15 @@
 -->
 
 
-<p>asdasdasd</p>
+<p>This project introduces the Asynchronous Decentralized Federated Lifelong Learning (ADFLL) framework, an innovative approach to federated learning that addresses the limitations of synchronous training schedules and the lack of lifelong learning in conventional machine learning frameworks for medical applications. ADFLL enables asynchronous and continual learning across agents, allowing them to leverage both their own experiences and knowledge shared by others. The framework was evaluated using deep reinforcement learning (DRL) for landmark localization tasks across diverse imaging modalities, orientations, and sequences. Experimental results demonstrated that ADFLL outperforms baseline models in collaborative learning, showing superior performance on both in-distribution and out-of-distribution test sets. This robust, efficient, and flexible framework is well-suited for deployment in real-world applications requiring privacy-preserving and lifelong collaborative learning. Paper published in <em>Medical Imaging with Deep Learning</em> (MIDL) 2024, <a href="https://openreview.net/forum?id=FbM7sDDAZ4">Towards a Collective Medical Imaging AI: Enabling Continual Learning from Peers</a>. Github repo: https://github.com/guangyaoz/ADFLL</p>
+
+<p><img src="/images/ADFLL_Concept_Figure.png" alt="plain image"></p>
+
+<p>To further enhance the efficiency of the ADFLL framework, we integrate a reward distribution-preserving coreset compression technique for selective experience replay buffers. This method compresses stored experiences, reducing computational overhead while maintaining the model’s ability to mitigate catastrophic forgetting. Evaluated on tasks such as ventricle localization in the BRATS dataset and landmark localization in whole-body MRI, the compressed lifelong learning models demonstrated competitive performance with minimal impact on accuracy. For instance, the 10x compressed models achieved mean pixel distances close to conventional lifelong learning models, highlighting the viability of coreset compression in resource-constrained settings. This addition reinforces ADFLL’s scalability and adaptability to real-world applications. Paper published in <em>Medical Imaging with Deep Learning</em> (MIDL) 2023, <a href="%5Bhttps://openreview.net/forum?id=FbM7sDDAZ4%5D(https://proceedings.mlr.press/v227/zheng24a.html)">Selective experience replay compression using coresets for lifelong deep reinforcement learning in medical imaging</a>.</p>
+
+<p>To further address the challenges of deploying the ADFLL framework on low-compute edge devices in rapidly evolving imaging environments, we developed three image coreset algorithms for compressing and denoising medical images in selective experience replay. These include neighborhood averaging, neighborhood sensitivity-based sampling, and maximum entropy coresets, which achieve 27x compression while maintaining strong performance in localizing anatomical landmarks on DIXON water and fat MRI images. Notably, the maximum entropy coreset outperformed conventional lifelong learning models with an average distance error of 11.97±12.02 compared to 19.24±50.77, showcasing its potential to enhance efficiency and adaptability in real-world medical imaging applications. Paper on arXiv: <a href="https://arxiv.org/abs/2306.05310">A framework for dynamically training and adapting deep reinforcement learning models to different, low-compute, and continuously changing radiology deployment environments</a></p>
+
+<p>This project is funded by DARPA, part of the Shared Experience Lifelong Learning (<a href="https://intelligencecommunitynews.com/darpa-launches-shell-program/">ShELL</a>) program. Collectively, we have published a paper on <em>Nature Machine Intelligence</em>, <a href="https://rdcu.be/dB9zt">A collective AI via lifelong learning and sharing at the edge</a></p>
   </section>
 
   
