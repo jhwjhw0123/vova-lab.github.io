@@ -25,9 +25,9 @@ We benchmarked our framework against strong baselines, including CNN+BiGRU with 
 
 Our model offers a promising solution for real-world arrhythmia detection and classification, providing:
 
-*Enhanced diagnostic efficiency by reducing the workload on cardiologists.
-*Personalized treatment options by enabling accurate, continuous monitoring.
-*Emergency intervention capabilities through real-time arrhythmia monitoring on wearable devices.
+* Enhanced diagnostic efficiency by reducing the workload on cardiologists.
+* Personalized treatment options by enabling accurate, continuous monitoring.
+* Emergency intervention capabilities through real-time arrhythmia monitoring on wearable devices.
 This framework has the potential to revolutionize arrhythmia management, improving patient outcomes and advancing the integration of AI in healthcare. Paper published in *Digital Health*: [Hierarchical Deep Learning for Autonomous Multi-label Arrhythmia Detection and Classification on Real-world Wearable ECG Data](https://journals.sagepub.com/doi/full/10.1177/20552076241278942)
 
 
@@ -40,7 +40,7 @@ The XAI analysis revealed that for ventricular premature contraction (VPC), the 
 
 This research contributes to interpretable deep learning for arrhythmia diagnosis by:
 
-*Enhancing decision support systems with transparent and interpretable predictions.
-*Facilitating biomarker discovery for arrhythmia management.
-*Improving trust in AI systems through alignment with clinical knowledge.
+* Enhancing decision support systems with transparent and interpretable predictions.
+* Facilitating biomarker discovery for arrhythmia management.
+* Improving trust in AI systems through alignment with clinical knowledge.
 These advancements pave the way for more explainable, reliable, and effective deep learning models in healthcare. Paper published in *International Conference on Artificial Intelligence in Medicine* (AIME) 2024: [Exploring the Possibility of Arrhythmia Interpretation of Time Domain ECG Using XAI: A Preliminary Study](https://link.springer.com/chapter/10.1007/978-3-031-66535-6_31)
