@@ -1,7 +1,7 @@
 - title: DARPA Shared Experience Lifelong Learning (ShELL)
   subtitle: Asynchronous Decentralized Federated Lifelong Learning (ADFLL)
   group: featured
-  image: images/photo.jpg
+  image: images/ADFLL_Concept_Figure.jpg
   link: https://github.com/guangyaoz/ADFLL
   description: This project presents ADFLL, a novel distributed learning framework enabling asynchronous, lifelong collaboration among agents. Evaluated using deep reinforcement learning for landmark localization across diverse imaging modalities, ADFLL outperformed traditional models in both in-distribution and out-of-distribution tests. It offers a robust, efficient solution for privacy-preserving, real-world applications.
   tags:
@@ -10,7 +10,7 @@
 - title: Arrhythmia Detection
   subtitle: Hierarchical Deep Learning for Autonomous Multi-label Arrhythmia Detection and Classification on Real-world Wearable ECG Data
   group: featured
-  image: images/photo.jpg
+  image: images/arrhythmia.png
   link: https://journals.sagepub.com/doi/full/10.1177/20552076241278942
   description: This project introduces a CNN+BiLSTM with Attention framework for detecting and classifying arrhythmias in noisy, real-world wearable ECG data. The model achieved 95% accuracy in binary classification and 88% in multi-label classification on a proprietary dataset, outperforming state-of-the-art baselines. It enables real-time monitoring, reduces cardiologist workloads, and supports personalized treatment.
   tags:
