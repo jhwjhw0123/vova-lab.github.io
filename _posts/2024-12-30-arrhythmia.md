@@ -23,7 +23,7 @@ The model was trained and evaluated on a proprietary dataset, achieving state-of
   include figure.html
   image="images/arrhythmia.png"
   caption="(A) to (D) is a flowchart of the proposed framework. (C) to (D) are proposed concepts of a hierarchical approach. (A) Multi-labeled wireless ECG arrhythmia raw data, (B) 4-beat input data after preprocessing, (C) Binary classification model for normal heartbeat and arrhythmia classification, (D) Multi-class, multi-label arrhythmia classification model, (E) Detailed structure of the proposed CNN + BiLSTM with attention model."
-  width="400px"
+  width="1000px"
 %}
 
 *Binary Classification: Accuracy: 95%, F1-score: 0.838, AUC: 0.906.
