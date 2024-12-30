@@ -39,55 +39,61 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Asynchronous Decentralized Federated Lifelong Learning (ADFLL) | random lab site</title>
+<title>Arrhythmia Detection and ECG Explainability | random lab site</title>
 
 <link rel="icon" href="/vova-lab.github.io/images/icon.png">
 
-<meta name="title" content="Asynchronous Decentralized Federated Lifelong Learning (ADFLL)">
+<meta name="title" content="Arrhythmia Detection and ECG Explainability">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="Asynchronous Decentralized Federated Lifelong Learning (ADFLL)">
+<meta property="og:title" content="Arrhythmia Detection and ECG Explainability">
 <meta property="og:site_title" content="random lab site">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://guangyaoz.github.io/vova-lab.github.io">
 <meta property="og:image" content="/vova-lab.github.io/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Asynchronous Decentralized Federated Lifelong Learning (ADFLL)">
+<meta property="twitter:title" content="Arrhythmia Detection and ECG Explainability">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://guangyaoz.github.io/vova-lab.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/vova-lab.github.io/images/share.jpg">
 
 
-  <meta name="author" content="&lt;p&gt;This project introduces the Asynchronous Decentralized Federated Lifelong Learning (ADFLL) framework, an innovative approach to federated learning that addresses the limitations of synchronous training schedules and the lack of lifelong learning in conventional machine learning frameworks for medical applications. ADFLL enables asynchronous and continual learning across agents, allowing them to leverage both their own experiences and knowledge shared by others. The framework was evaluated using deep reinforcement learning (DRL) for landmark localization tasks across diverse imaging modalities, orientations, and sequences. Experimental results demonstrated that ADFLL outperforms baseline models in collaborative learning, showing superior performance on both in-distribution and out-of-distribution test sets. This robust, efficient, and flexible framework is well-suited for deployment in real-world applications requiring privacy-preserving and lifelong collaborative learning. Paper published in &lt;em&gt;Medical Imaging with Deep Learning&lt;/em&gt; (MIDL) 2024, &lt;a href=&quot;https://openreview.net/forum?id=FbM7sDDAZ4&quot;&gt;Towards a Collective Medical Imaging AI: Enabling Continual Learning from Peers&lt;/a&gt;. Github repo: https://github.com/guangyaoz/ADFLL.&lt;/p&gt;
+  <meta name="author" content='&lt;p&gt;This project addresses the critical challenges of arrhythmia detection and classification, particularly in the context of wearable electrocardiogram (ECG) monitoring devices. Unlike clinically controlled environments, wearable devices operate in noisy, real-world conditions, which complicates the accurate identification of arrhythmias. Additionally, the inherent imbalance in the ratio of normal heartbeats to arrhythmic ones, along with the diverse combinations of arrhythmia types, further compounds the difficulty of the task.&lt;/p&gt;
 
-&lt;figure class=&quot;figure&quot;&gt;
-  &lt;a class=&quot;figure-image&quot; aria-label=&quot;Illustration of asynchronous decentralized federated lifelong learning ADFLL set up for cross-modality 3D localization of spleen. The blue, orange, and green boxes represent different agents in the setup. Each agent sequentially encounters two different imaging modalities for along with experiences shared by the other nodes, enabling them to learn to localize the spleen across all four modalities as opposed to just the two they encountered .&quot;&gt;
-    &lt;img src=&quot;/vova-lab.github.io/images/ADFLL_Concept_Figure.png&quot; style=&quot;
-        width: 400px;
-        max-height: unset;
-      &quot; alt=&quot;Illustration of asynchronous decentralized federated lifelong learning ADFLL set up for cross-modality 3D localization of spleen. The blue, orange, and green boxes represent different agents in the setup. Each agent sequentially encounters two different imaging modalities for along with experiences shared by the other nodes, enabling them to learn to localize the spleen across all four modalities as opposed to just the two they encountered .&quot; loading=&quot;lazy&quot; onerror=&quot;this.src = '/vova-lab.github.io/images/fallback.svg'; this.onerror = null;&quot; /&gt;
-  &lt;/a&gt;
-  
-    &lt;figcaption class=&quot;figure-caption&quot;&gt;
-      Illustration of asynchronous decentralized federated lifelong learning (ADFLL)
-  set up for cross-modality 3D localization of spleen. The blue, orange, and green
-  boxes represent different agents in the setup. Each agent sequentially encounters
-  two different imaging modalities for along with experiences shared by the other
-  nodes, enabling them to learn to localize the spleen across all four modalities (as
-  opposed to just the two they encountered).
+&lt;p&gt;To tackle these challenges, we developed a novel hierarchical deep learning model that combines Convolutional Neural Networks (CNN), Bidirectional Long Short-Term Memory networks (BiLSTM), and an Attention mechanism. Our framework consists of two key modules:&lt;/p&gt;
 
-    &lt;/figcaption&gt;
-  
-&lt;/figure&gt;
+&lt;ol&gt;
+  &lt;li&gt;A binary classification module to distinguish normal heartbeats from arrhythmic ones.&lt;/li&gt;
+  &lt;li&gt;A multi-label classification module to categorize arrhythmia events across combinations of beat and rhythm types.
+The model was trained and evaluated on a proprietary dataset, achieving state-of-the-art performance metrics:&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;To further enhance the efficiency of the ADFLL framework, we integrate a reward distribution-preserving coreset compression technique for selective experience replay buffers. This method compresses stored experiences, reducing computational overhead while maintaining the model’s ability to mitigate catastrophic forgetting. Evaluated on tasks such as ventricle localization in the BRATS dataset and landmark localization in whole-body MRI, the compressed lifelong learning models demonstrated competitive performance with minimal impact on accuracy. For instance, the 10x compressed models achieved mean pixel distances close to conventional lifelong learning models, highlighting the viability of coreset compression in resource-constrained settings. This addition reinforces ADFLL’s scalability and adaptability to real-world applications. Paper published in &lt;em&gt;Medical Imaging with Deep Learning&lt;/em&gt; (MIDL) 2023, &lt;a href=&quot;https://proceedings.mlr.press/v227/zheng24a.html&quot;&gt;Selective experience replay compression using coresets for lifelong deep reinforcement learning in medical imaging&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;*Binary Classification: Accuracy: 95%, F1-score: 0.838, AUC: 0.906.
+*Multi-label Classification: Accuracy: 88%, F1-score: 0.736, AUC: 0.875.
+We benchmarked our framework against strong baselines, including CNN+BiGRU with Attention, ConViT, EfficientNet, and ResNet, as well as previous state-of-the-art methods, demonstrating its superior performance.&lt;/p&gt;
 
-&lt;p&gt;To further address the challenges of deploying the ADFLL framework on low-compute edge devices in rapidly evolving imaging environments, we developed three image coreset algorithms for compressing and denoising medical images in selective experience replay. These include neighborhood averaging, neighborhood sensitivity-based sampling, and maximum entropy coresets, which achieve 27x compression while maintaining strong performance in localizing anatomical landmarks on DIXON water and fat MRI images. Notably, the maximum entropy coreset outperformed conventional lifelong learning models with an average distance error of 11.97±12.02 compared to 19.24±50.77, showcasing its potential to enhance efficiency and adaptability in real-world medical imaging applications. Paper on arXiv: &lt;a href=&quot;https://arxiv.org/abs/2306.05310&quot;&gt;A framework for dynamically training and adapting deep reinforcement learning models to different, low-compute, and continuously changing radiology deployment environments&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Our model offers a promising solution for real-world arrhythmia detection and classification, providing:&lt;/p&gt;
 
-&lt;p&gt;This project is funded by DARPA, part of the Shared Experience Lifelong Learning (&lt;a href=&quot;https://intelligencecommunitynews.com/darpa-launches-shell-program/&quot;&gt;ShELL&lt;/a&gt;) program. Collectively, we have published a paper on &lt;em&gt;Nature Machine Intelligence&lt;/em&gt;, &lt;a href=&quot;https://rdcu.be/dB9zt&quot;&gt;A collective AI via lifelong learning and sharing at the edge&lt;/a&gt;.&lt;/p&gt;
-">
+&lt;p&gt;&lt;em&gt;Enhanced diagnostic efficiency by reducing the workload on cardiologists.
+*Personalized treatment options by enabling accurate, continuous monitoring.
+*Emergency intervention capabilities through real-time arrhythmia monitoring on wearable devices.
+This framework has the potential to revolutionize arrhythmia management, improving patient outcomes and advancing the integration of AI in healthcare. Paper published in *Digital Health&lt;/em&gt;: &lt;a href="https://journals.sagepub.com/doi/full/10.1177/20552076241278942"&gt;Hierarchical Deep Learning for Autonomous Multi-label Arrhythmia Detection and Classification on Real-world Wearable ECG Data&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Additionally, the lack of transparent justifications for decisions made by deep learning models poses challenges for real-world applications.&lt;/p&gt;
+
+&lt;p&gt;In this project, we utilized signals from a portable single-lead ECG device to classify eight arrhythmia classes using convolutional neural networks (CNN), achieving 79.91% accuracy on a single heartbeat. To enhance model interpretability, we incorporated Layer-Wise Relevance Propagation (LRP), an explainable artificial intelligence (XAI) algorithm, to analyze the distinctive features of each arrhythmia.&lt;/p&gt;
+
+&lt;p&gt;The XAI analysis revealed that for ventricular premature contraction (VPC), the model demonstrated strong activations in the QRS complex and T-wave regions. This aligns with medical interpretations that a wide QRS complex and an oppositely directed T-wave are characteristic of VPC. Such findings emphasize the potential for deep learning models to offer not only accurate predictions but also insights that align with clinical knowledge, supporting biomarker discovery for arrhythmia classification.&lt;/p&gt;
+
+&lt;p&gt;This research contributes to interpretable deep learning for arrhythmia diagnosis by:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Enhancing decision support systems with transparent and interpretable predictions.
+*Facilitating biomarker discovery for arrhythmia management.
+*Improving trust in AI systems through alignment with clinical knowledge.
+These advancements pave the way for more explainable, reliable, and effective deep learning models in healthcare. Paper published in *International Conference on Artificial Intelligence in Medicine&lt;/em&gt; (AIME) 2024: &lt;a href="https://link.springer.com/chapter/10.1007/978-3-031-66535-6_31"&gt;Exploring the Possibility of Arrhythmia Interpretation of Time Domain ECG Using XAI: A Preliminary Study&lt;/a&gt;&lt;/p&gt;
+'>
   <meta property="og:type" content="article">
   <meta property="og:updated_time" content="2024-12-30T19:23:10+00:00">
   <meta property="article:published_time" content="2024-12-30T00:00:00+00:00">
@@ -100,13 +106,13 @@
     "@context": "https://schema.org",
     
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Asynchronous Decentralized Federated Lifelong Learning (ADFLL)" },
+      "author": { "@type": "Person", "name": "Arrhythmia Detection and ECG Explainability" },
       "datePublished": "2024-12-30T00:00:00+00:00",
       "dateModified": "2024-12-30T19:23:10+00:00",
     
-    "name": "Asynchronous Decentralized Federated Lifelong Learning (ADFLL)",
+    "name": "Arrhythmia Detection and ECG Explainability",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Asynchronous Decentralized Federated Lifelong Learning (ADFLL)",
+    "headline": "Arrhythmia Detection and ECG Explainability",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/vova-lab.github.io/images/icon.png" }
@@ -495,7 +501,7 @@
 -->
 
 
-<h1 class="center">Asynchronous Decentralized Federated Lifelong Learning (ADFLL)</h1>
+<h1 class="center">Arrhythmia Detection and ECG Explainability</h1>
 
 <div class="post-info">
   
@@ -558,33 +564,39 @@
 -->
 
 
-<p>This project introduces the Asynchronous Decentralized Federated Lifelong Learning (ADFLL) framework, an innovative approach to federated learning that addresses the limitations of synchronous training schedules and the lack of lifelong learning in conventional machine learning frameworks for medical applications. ADFLL enables asynchronous and continual learning across agents, allowing them to leverage both their own experiences and knowledge shared by others. The framework was evaluated using deep reinforcement learning (DRL) for landmark localization tasks across diverse imaging modalities, orientations, and sequences. Experimental results demonstrated that ADFLL outperforms baseline models in collaborative learning, showing superior performance on both in-distribution and out-of-distribution test sets. This robust, efficient, and flexible framework is well-suited for deployment in real-world applications requiring privacy-preserving and lifelong collaborative learning. Paper published in <em>Medical Imaging with Deep Learning</em> (MIDL) 2024, <a href="https://openreview.net/forum?id=FbM7sDDAZ4">Towards a Collective Medical Imaging AI: Enabling Continual Learning from Peers</a>. Github repo: https://github.com/guangyaoz/ADFLL.</p>
+<p>This project addresses the critical challenges of arrhythmia detection and classification, particularly in the context of wearable electrocardiogram (ECG) monitoring devices. Unlike clinically controlled environments, wearable devices operate in noisy, real-world conditions, which complicates the accurate identification of arrhythmias. Additionally, the inherent imbalance in the ratio of normal heartbeats to arrhythmic ones, along with the diverse combinations of arrhythmia types, further compounds the difficulty of the task.</p>
 
-<figure class="figure">
-  <a class="figure-image" aria-label="Illustration of asynchronous decentralized federated lifelong learning ADFLL set up for cross-modality 3D localization of spleen. The blue, orange, and green boxes represent different agents in the setup. Each agent sequentially encounters two different imaging modalities for along with experiences shared by the other nodes, enabling them to learn to localize the spleen across all four modalities as opposed to just the two they encountered .">
-    <img src="/vova-lab.github.io/images/ADFLL_Concept_Figure.png" style="
-        width: 400px;
-        max-height: unset;
-      " alt="Illustration of asynchronous decentralized federated lifelong learning ADFLL set up for cross-modality 3D localization of spleen. The blue, orange, and green boxes represent different agents in the setup. Each agent sequentially encounters two different imaging modalities for along with experiences shared by the other nodes, enabling them to learn to localize the spleen across all four modalities as opposed to just the two they encountered ." loading="lazy" onerror="this.src = '/vova-lab.github.io/images/fallback.svg'; this.onerror = null;">
-  </a>
-  
-    <figcaption class="figure-caption">
-      Illustration of asynchronous decentralized federated lifelong learning (ADFLL)
-  set up for cross-modality 3D localization of spleen. The blue, orange, and green
-  boxes represent different agents in the setup. Each agent sequentially encounters
-  two different imaging modalities for along with experiences shared by the other
-  nodes, enabling them to learn to localize the spleen across all four modalities (as
-  opposed to just the two they encountered).
+<p>To tackle these challenges, we developed a novel hierarchical deep learning model that combines Convolutional Neural Networks (CNN), Bidirectional Long Short-Term Memory networks (BiLSTM), and an Attention mechanism. Our framework consists of two key modules:</p>
 
-    </figcaption>
-  
-</figure>
+<ol>
+  <li>A binary classification module to distinguish normal heartbeats from arrhythmic ones.</li>
+  <li>A multi-label classification module to categorize arrhythmia events across combinations of beat and rhythm types.
+The model was trained and evaluated on a proprietary dataset, achieving state-of-the-art performance metrics:</li>
+</ol>
 
-<p>To further enhance the efficiency of the ADFLL framework, we integrate a reward distribution-preserving coreset compression technique for selective experience replay buffers. This method compresses stored experiences, reducing computational overhead while maintaining the model’s ability to mitigate catastrophic forgetting. Evaluated on tasks such as ventricle localization in the BRATS dataset and landmark localization in whole-body MRI, the compressed lifelong learning models demonstrated competitive performance with minimal impact on accuracy. For instance, the 10x compressed models achieved mean pixel distances close to conventional lifelong learning models, highlighting the viability of coreset compression in resource-constrained settings. This addition reinforces ADFLL’s scalability and adaptability to real-world applications. Paper published in <em>Medical Imaging with Deep Learning</em> (MIDL) 2023, <a href="https://proceedings.mlr.press/v227/zheng24a.html">Selective experience replay compression using coresets for lifelong deep reinforcement learning in medical imaging</a>.</p>
+<p>*Binary Classification: Accuracy: 95%, F1-score: 0.838, AUC: 0.906.
+*Multi-label Classification: Accuracy: 88%, F1-score: 0.736, AUC: 0.875.
+We benchmarked our framework against strong baselines, including CNN+BiGRU with Attention, ConViT, EfficientNet, and ResNet, as well as previous state-of-the-art methods, demonstrating its superior performance.</p>
 
-<p>To further address the challenges of deploying the ADFLL framework on low-compute edge devices in rapidly evolving imaging environments, we developed three image coreset algorithms for compressing and denoising medical images in selective experience replay. These include neighborhood averaging, neighborhood sensitivity-based sampling, and maximum entropy coresets, which achieve 27x compression while maintaining strong performance in localizing anatomical landmarks on DIXON water and fat MRI images. Notably, the maximum entropy coreset outperformed conventional lifelong learning models with an average distance error of 11.97±12.02 compared to 19.24±50.77, showcasing its potential to enhance efficiency and adaptability in real-world medical imaging applications. Paper on arXiv: <a href="https://arxiv.org/abs/2306.05310">A framework for dynamically training and adapting deep reinforcement learning models to different, low-compute, and continuously changing radiology deployment environments</a>.</p>
+<p>Our model offers a promising solution for real-world arrhythmia detection and classification, providing:</p>
 
-<p>This project is funded by DARPA, part of the Shared Experience Lifelong Learning (<a href="https://intelligencecommunitynews.com/darpa-launches-shell-program/">ShELL</a>) program. Collectively, we have published a paper on <em>Nature Machine Intelligence</em>, <a href="https://rdcu.be/dB9zt">A collective AI via lifelong learning and sharing at the edge</a>.</p>
+<p><em>Enhanced diagnostic efficiency by reducing the workload on cardiologists.
+*Personalized treatment options by enabling accurate, continuous monitoring.
+*Emergency intervention capabilities through real-time arrhythmia monitoring on wearable devices.
+This framework has the potential to revolutionize arrhythmia management, improving patient outcomes and advancing the integration of AI in healthcare. Paper published in *Digital Health</em>: <a href="https://journals.sagepub.com/doi/full/10.1177/20552076241278942">Hierarchical Deep Learning for Autonomous Multi-label Arrhythmia Detection and Classification on Real-world Wearable ECG Data</a></p>
+
+<p>Additionally, the lack of transparent justifications for decisions made by deep learning models poses challenges for real-world applications.</p>
+
+<p>In this project, we utilized signals from a portable single-lead ECG device to classify eight arrhythmia classes using convolutional neural networks (CNN), achieving 79.91% accuracy on a single heartbeat. To enhance model interpretability, we incorporated Layer-Wise Relevance Propagation (LRP), an explainable artificial intelligence (XAI) algorithm, to analyze the distinctive features of each arrhythmia.</p>
+
+<p>The XAI analysis revealed that for ventricular premature contraction (VPC), the model demonstrated strong activations in the QRS complex and T-wave regions. This aligns with medical interpretations that a wide QRS complex and an oppositely directed T-wave are characteristic of VPC. Such findings emphasize the potential for deep learning models to offer not only accurate predictions but also insights that align with clinical knowledge, supporting biomarker discovery for arrhythmia classification.</p>
+
+<p>This research contributes to interpretable deep learning for arrhythmia diagnosis by:</p>
+
+<p><em>Enhancing decision support systems with transparent and interpretable predictions.
+*Facilitating biomarker discovery for arrhythmia management.
+*Improving trust in AI systems through alignment with clinical knowledge.
+These advancements pave the way for more explainable, reliable, and effective deep learning models in healthcare. Paper published in *International Conference on Artificial Intelligence in Medicine</em> (AIME) 2024: <a href="https://link.springer.com/chapter/10.1007/978-3-031-66535-6_31">Exploring the Possibility of Arrhythmia Interpretation of Time Domain ECG Using XAI: A Preliminary Study</a></p>
   </section>
 
   
@@ -603,17 +615,12 @@
   <span>
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/vova-lab.github.io/2023/02/23/example-post-3.html">
-        Example post 3
+      <a href="/vova-lab.github.io/2024/12/30/ADFLL.html">
+        Asynchronous Decentralized Federated Lifelong Learning (ADFLL)
       </a>
     
   </span>
   <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/vova-lab.github.io/2024/12/30/arrhythmia.html">
-        Arrhythmia Detection and ECG Explainability
-      </a>
     
   </span>
 </div>
