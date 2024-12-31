@@ -35,10 +35,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% capture text %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-<!---
+
 {%
   include button.html
-  link="projects"
+  link="blog"
   text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -50,13 +50,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
+  link="blog"
   title="Our Projects"
   flip=true
   style="bare"
   text=text
 %}
--->
+
 {% capture text %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
