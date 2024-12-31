@@ -17,3 +17,5 @@ Post-CF-LVAD, oxidative phosphorylation protein levels were markedly reduced in 
 Using machine learning techniques, including Least Absolute Shrinkage and Selection Operator (LASSO) and Random Forest models, the study identified six prognostic factors that accurately predicted postoperative stroke risk, achieving an area under the receiver operating characteristic (ROC) curve (AUC) of 0.93. These findings highlight a novel association between mitochondrial dysfunction at the systemic level and stroke risk in this patient group.
 
 The project underscores the potential of OxPhos protein expression as a biomarker for identifying patients at heightened risk of stroke following CF-LVAD implantation. Further research will refine these biomarkers and explore targeted interventions to mitigate postoperative stroke risk in CHF patients.
+
+Paper published in *American Society for Artificial Internal Organs* (ASAIO): [Machine Learning Assisted Stroke Prediction in Mechanical Circulatory Support: Predictive Role of Systemic Mitochondrial Dysfunction](https://journals.lww.com/asaiojournal/abstract/9900/machine_learning_assisted_stroke_prediction_in.586.aspx)
