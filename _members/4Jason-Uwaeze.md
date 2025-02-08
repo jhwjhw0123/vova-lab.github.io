@@ -1,11 +1,11 @@
 ---
-name: Zicheng (Jeremy) Xu
+name: Jason Uwaeze
 image: images/photo.jpg
-description: Undergraduate Student
+description: PhD Student
 role: phd
-affiliation: Johns Hopkins University
+affiliation: Rice University
 links:
-  email: zx32@rice.edu 
+  email: ju6@rice.edu 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
