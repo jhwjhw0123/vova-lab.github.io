@@ -26,7 +26,7 @@
 
 - title: Active Lesion Dection in Brain MRI
   subtitle: Automatic Active Lesion Tracking in Multiple Sclerosis Using Unsupervised Machine Learning
-  image: images/photo.jpg
+  image: images/nldr.png
   link: https://www.mdpi.com/2075-4418/14/6/632
   description: This study uses Non-linear Dimensionality Reduction (NLDR) techniques to identify active lesions in magnetic resonance imaging (MRI). We applied Locally Linear Embedding (LLE) and Isometric Feature Mapping (Isomap) to MRI data from 40 multiple sclerosis patients, achieving median Dice scores of 0.74 and 0.78 for active lesion segmentation, respectively.
   tags:
