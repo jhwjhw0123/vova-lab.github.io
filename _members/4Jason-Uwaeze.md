@@ -1,6 +1,6 @@
 ---
 name: Jason Uwaeze
-image: images/photo.jpg
+image: images/jason_uwaeeze.jpg
 description: PhD Student
 role: phd
 affiliation: Rice University
