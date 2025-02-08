@@ -23,3 +23,11 @@
   description: This study identifies mitochondrial oxidative phosphorylation (OxPhos) abnormalities as a potential predictor of stroke in CHF patients undergoing CF-LVAD implantation. Analysis of OxPhos proteins in blood leukocytes revealed significant reductions in patients with prior strokes. Machine learning models predicted postoperative stroke risk with an AUC of 0.93, suggesting OxPhos protein levels as valuable biomarkers for stroke prediction in this population.
   tags:
     - publication
+
+- title: Active Lesion Dection in Brain MRI
+  subtitle: Automatic Active Lesion Tracking in Multiple Sclerosis Using Unsupervised Machine Learning
+  image: images/photo.jpg
+  link: https://www.mdpi.com/2075-4418/14/6/632
+  description: This study uses Non-linear Dimensionality Reduction (NLDR) techniques to identify active lesions in magnetic resonance imaging (MRI). We applied Locally Linear Embedding (LLE) and Isometric Feature Mapping (Isomap) to MRI data from 40 multiple sclerosis patients, achieving median Dice scores of 0.74 and 0.78 for active lesion segmentation, respectively.
+  tags:
+    - publication
