@@ -39,42 +39,80 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Biomarker Stroke Prediction | random lab site</title>
+<title>Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in Nuclear Fuel | random lab site</title>
 
 <link rel="icon" href="/vova-lab.github.io/images/icon.png">
 
-<meta name="title" content="Biomarker Stroke Prediction">
+<meta name="title" content="Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in Nuclear Fuel">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="Biomarker Stroke Prediction">
+<meta property="og:title" content="Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in Nuclear Fuel">
 <meta property="og:site_title" content="random lab site">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://guangyaoz.github.io/vova-lab.github.io">
 <meta property="og:image" content="/vova-lab.github.io/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Biomarker Stroke Prediction">
+<meta property="twitter:title" content="Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in Nuclear Fuel">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://guangyaoz.github.io/vova-lab.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/vova-lab.github.io/images/share.jpg">
 
 
-  <meta name="author" content='&lt;p&gt;This project explores the link between mitochondrial oxidative phosphorylation (OxPhos) abnormalities and stroke risk in patients with advanced congestive heart failure (CHF) undergoing continuous-flow left ventricular assist device (CF-LVAD) implantation. Stroke remains a significant complication for this patient population, and prior ischemic events may predispose individuals to systemic mitochondrial dysfunction, exacerbating their risk of new strokes post-implantation.&lt;/p&gt;
+  <meta name="author" content="&lt;p&gt;This work introduces a new framework for identifying microstructures in irradiated U-10Zr (wt. %)
+metallic fuel with limited annotated data. The framework includes the creation of a reliable
+annotated dataset with paired SEM and ground truth data from EDS maps, the applications of
+CNNs for microstructure identification, and the validation of model performance. We evaluate several models,
+including Patch-based U-Net, Attention U-Net, and Residual U-Net, finding that patch-based U-Net exhibits superior segmentation performance and consistency. This approach reduces reliance on EDS detectors and aids in accelerating nuclear material analysis process, highlighting the
+potential of advanced deep learning techniques to improve microstructural understanding in nuclear material.&lt;/p&gt;
 
-&lt;p&gt;In this study, OxPhos complex proteins (complex I [C.I] through complex V [C.V]) were measured in blood leukocytes of 50 CF-LVAD patients, evenly split between those with and without prior stroke histories. Key findings revealed:&lt;/p&gt;
+&lt;p&gt;[&lt;a href=&quot;https://www.nature.com/srep/&quot;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
 
-&lt;p&gt;Patients with a history of stroke exhibited significantly lower levels of C.I, C.II, C.IV, and C.V proteins in both pre-and post-CF-LVAD implantation compared to those without prior strokes.
-Post-CF-LVAD, oxidative phosphorylation protein levels were markedly reduced in the prior-stroke group compared to baseline.
-Using machine learning techniques, including Least Absolute Shrinkage and Selection Operator (LASSO) and Random Forest models, the study identified six prognostic factors that accurately predicted postoperative stroke risk, achieving an area under the receiver operating characteristic (ROC) curve (AUC) of 0.93. These findings highlight a novel association between mitochondrial dysfunction at the systemic level and stroke risk in this patient group.&lt;/p&gt;
+&lt;figure class=&quot;figure&quot;&gt;
+  &lt;a class=&quot;figure-image&quot; aria-label=&quot;Framework for patch-based material characterization&quot;&gt;
+    &lt;img src=&quot;/vova-lab.github.io/images/pbmc.png&quot; style=&quot;
+        width: 1000px;
+        max-height: unset;
+      &quot; alt=&quot;Framework for patch-based material characterization&quot; loading=&quot;lazy&quot; onerror=&quot;this.src = '/vova-lab.github.io/images/fallback.svg'; this.onerror = null;&quot; /&gt;
+  &lt;/a&gt;
+  
+    &lt;figcaption class=&quot;figure-caption&quot;&gt;
+      Framework for patch-based material characterization
 
-&lt;p&gt;The project underscores the potential of OxPhos protein expression as a biomarker for identifying patients at heightened risk of stroke following CF-LVAD implantation. Further research will refine these biomarkers and explore targeted interventions to mitigate postoperative stroke risk in CHF patients.&lt;/p&gt;
+    &lt;/figcaption&gt;
+  
+&lt;/figure&gt;
 
-&lt;p&gt;Paper published in &lt;em&gt;American Society for Artificial Internal Organs&lt;/em&gt; (ASAIO): &lt;a href="https://journals.lww.com/asaiojournal/abstract/9900/machine_learning_assisted_stroke_prediction_in.586.aspx"&gt;Machine Learning Assisted Stroke Prediction in Mechanical Circulatory Support: Predictive Role of Systemic Mitochondrial Dysfunction&lt;/a&gt;&lt;/p&gt;
-'>
+&lt;p&gt;Focused ion beam scanning electron microscopy (FIB-SEM) tomography has increasingly been
+utilized for acquiring three-dimensional (3D) microstructure features at the sub-micron scale in
+irradiated nuclear materials. Despite its growing use, several challenges persist. These include the time-intensive nature of
+data collection of EDS data, difficulties in distinguishing between various microstructures, and issues with image alignment. 
+These challenges currently limit the broader application of FIB-SEM tomography in the field. To overcome these limitations, we propose using convolutional
+neural networks (CNNs) to automate microstructure identification in SEM images. Our study introduces a new framework for identifying microstructures in 
+irradiated U-10Zr (wt. %) metallic fuel with limited annotated data. The framework includes the creation of a reliable annotated dataset with paired SEM 
+and ground truth data from EDS maps, the applications of CNNs for microstructure identification, and the validation of model performance. Specifically,
+we employed the Segment Anything Model (SAM) to align SEM images with corresponding EDS maps and focused ion beam (FIB) tomography SEM data. We evaluate several models, including Patch-based U-Net, Attention U-Net, and Residual U-Net, finding that patch-based U- Net exhibits superior segmentation performance and consistency.&lt;/p&gt;
+
+&lt;p&gt;The key contributions of this work include:
+(1) Developing a new framework for data preparation in FIB-SEM tomography data.
+(2) Implementing PBCNNs for efficient segmentation of material microstructures in SEM
+images.
+(3) Performed a comprehensive analysis of state-of-the-art CNN-based SEM segmentation
+method&lt;/p&gt;
+
+&lt;p&gt;Paper submitted to &lt;em&gt;Scientific Reports&lt;/em&gt; (Nature) 2025, &lt;a href=&quot;https://www.nature.com/srep/&quot;&gt;Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in FIB-SEM Micrographs of Irradiated Nuclear Fuel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This work was supported by U.S. Department of Energy (DOE), INL Laboratory Directed Research &amp;amp; Development (LDRD)
+Program under DOE Idaho Operations Office Contract DE-AC07-05ID14517 (tracking number:
+23A1070-069FP, 24A1081-149FP, 25A1090-192FP). This research also made use of the resources of
+the High Performance Computing (HPC) Center at Idaho National Laboratory, which is
+supported by the Office of Nuclear Energy of the U.S. Department of Energy and the Nuclear
+Science User Facilities.&lt;/p&gt;
+">
   <meta property="og:type" content="article">
   <meta property="og:updated_time" content="2025-03-17T16:55:16+00:00">
-  <meta property="article:published_time" content="2024-12-30T00:00:00+00:00">
+  <meta property="article:published_time" content="2025-03-17T00:00:00+00:00">
   <meta property="article:modified_time" content="2025-03-17T16:55:16+00:00">
   <meta name="revised" content="2025-03-17T16:55:16+00:00">
 
@@ -84,13 +122,13 @@ Using machine learning techniques, including Least Absolute Shrinkage and Select
     "@context": "https://schema.org",
     
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "Biomarker Stroke Prediction" },
-      "datePublished": "2024-12-30T00:00:00+00:00",
+      "author": { "@type": "Person", "name": "Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in Nuclear Fuel" },
+      "datePublished": "2025-03-17T00:00:00+00:00",
       "dateModified": "2025-03-17T16:55:16+00:00",
     
-    "name": "Biomarker Stroke Prediction",
+    "name": "Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in Nuclear Fuel",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Biomarker Stroke Prediction",
+    "headline": "Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in Nuclear Fuel",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/vova-lab.github.io/images/icon.png" }
@@ -473,7 +511,7 @@ Using machine learning techniques, including Least Absolute Shrinkage and Select
 -->
 
 
-<h1 class="center">Biomarker Stroke Prediction</h1>
+<h1 class="center">Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in Nuclear Fuel</h1>
 
 <div class="post-info">
   
@@ -481,7 +519,7 @@ Using machine learning techniques, including Least Absolute Shrinkage and Select
     
       <span data-tooltip="Author">
         <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>Guangyao Zheng</span>
+        <span>Jason Uwaeze</span>
       </span>
     
   
@@ -492,15 +530,10 @@ Using machine learning techniques, including Least Absolute Shrinkage and Select
   
     <span data-tooltip="Originally published on">
       <i class="icon fa-regular fa-calendar"></i>
-      <span>December 30, 2024</span>
+      <span>March 17, 2025</span>
     </span>
   
 
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>March 17, 2025</span>
-    </span>
   
 </div>
 
@@ -510,16 +543,24 @@ Using machine learning techniques, including Least Absolute Shrinkage and Select
 
   <div class="tags" data-link="/vova-lab.github.io/blog">
     
-      <a href="blog?search=%22tag:%20personalized-healthcare%22" class="tag" data-tooltip='Show items with the tag "personalized-healthcare"'>
-        personalized-healthcare
+      <a href="blog?search=%22tag:%20scanning-electron-microscopy%22" class="tag" data-tooltip='Show items with the tag "scanning-electron-microscopy"'>
+        scanning-electron-microscopy
       </a>
     
-      <a href="blog?search=%22tag:%20biomarker%22" class="tag" data-tooltip='Show items with the tag "biomarker"'>
-        biomarker
+      <a href="blog?search=%22tag:%20energy-dispersive-spectroscopy%22" class="tag" data-tooltip='Show items with the tag "energy-dispersive-spectroscopy"'>
+        energy-dispersive-spectroscopy
       </a>
     
-      <a href="blog?search=%22tag:%20few-shot-learning%22" class="tag" data-tooltip='Show items with the tag "few-shot-learning"'>
-        few-shot-learning
+      <a href="blog?search=%22tag:%20convolutional-neural-networks%22" class="tag" data-tooltip='Show items with the tag "convolutional-neural-networks"'>
+        convolutional-neural-networks
+      </a>
+    
+      <a href="blog?search=%22tag:%20semantic-segmentation%22" class="tag" data-tooltip='Show items with the tag "semantic-segmentation"'>
+        semantic-segmentation
+      </a>
+    
+      <a href="blog?search=%22tag:%20nuclear-energy%22" class="tag" data-tooltip='Show items with the tag "nuclear-energy"'>
+        nuclear-energy
       </a>
     
   </div>
@@ -537,17 +578,55 @@ Using machine learning techniques, including Least Absolute Shrinkage and Select
 -->
 
 
-<p>This project explores the link between mitochondrial oxidative phosphorylation (OxPhos) abnormalities and stroke risk in patients with advanced congestive heart failure (CHF) undergoing continuous-flow left ventricular assist device (CF-LVAD) implantation. Stroke remains a significant complication for this patient population, and prior ischemic events may predispose individuals to systemic mitochondrial dysfunction, exacerbating their risk of new strokes post-implantation.</p>
+<p>This work introduces a new framework for identifying microstructures in irradiated U-10Zr (wt. %)
+metallic fuel with limited annotated data. The framework includes the creation of a reliable
+annotated dataset with paired SEM and ground truth data from EDS maps, the applications of
+CNNs for microstructure identification, and the validation of model performance. We evaluate several models,
+including Patch-based U-Net, Attention U-Net, and Residual U-Net, finding that patch-based U-Net exhibits superior segmentation performance and consistency. This approach reduces reliance on EDS detectors and aids in accelerating nuclear material analysis process, highlighting the
+potential of advanced deep learning techniques to improve microstructural understanding in nuclear material.</p>
 
-<p>In this study, OxPhos complex proteins (complex I [C.I] through complex V [C.V]) were measured in blood leukocytes of 50 CF-LVAD patients, evenly split between those with and without prior stroke histories. Key findings revealed:</p>
+<p>[<a href="https://www.nature.com/srep/">Paper</a>]</p>
 
-<p>Patients with a history of stroke exhibited significantly lower levels of C.I, C.II, C.IV, and C.V proteins in both pre-and post-CF-LVAD implantation compared to those without prior strokes.
-Post-CF-LVAD, oxidative phosphorylation protein levels were markedly reduced in the prior-stroke group compared to baseline.
-Using machine learning techniques, including Least Absolute Shrinkage and Selection Operator (LASSO) and Random Forest models, the study identified six prognostic factors that accurately predicted postoperative stroke risk, achieving an area under the receiver operating characteristic (ROC) curve (AUC) of 0.93. These findings highlight a novel association between mitochondrial dysfunction at the systemic level and stroke risk in this patient group.</p>
+<figure class="figure">
+  <a class="figure-image" aria-label="Framework for patch-based material characterization">
+    <img src="/vova-lab.github.io/images/pbmc.png" style="
+        width: 1000px;
+        max-height: unset;
+      " alt="Framework for patch-based material characterization" loading="lazy" onerror="this.src = '/vova-lab.github.io/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Framework for patch-based material characterization
 
-<p>The project underscores the potential of OxPhos protein expression as a biomarker for identifying patients at heightened risk of stroke following CF-LVAD implantation. Further research will refine these biomarkers and explore targeted interventions to mitigate postoperative stroke risk in CHF patients.</p>
+    </figcaption>
+  
+</figure>
 
-<p>Paper published in <em>American Society for Artificial Internal Organs</em> (ASAIO): <a href="https://journals.lww.com/asaiojournal/abstract/9900/machine_learning_assisted_stroke_prediction_in.586.aspx">Machine Learning Assisted Stroke Prediction in Mechanical Circulatory Support: Predictive Role of Systemic Mitochondrial Dysfunction</a></p>
+<p>Focused ion beam scanning electron microscopy (FIB-SEM) tomography has increasingly been
+utilized for acquiring three-dimensional (3D) microstructure features at the sub-micron scale in
+irradiated nuclear materials. Despite its growing use, several challenges persist. These include the time-intensive nature of
+data collection of EDS data, difficulties in distinguishing between various microstructures, and issues with image alignment. 
+These challenges currently limit the broader application of FIB-SEM tomography in the field. To overcome these limitations, we propose using convolutional
+neural networks (CNNs) to automate microstructure identification in SEM images. Our study introduces a new framework for identifying microstructures in 
+irradiated U-10Zr (wt. %) metallic fuel with limited annotated data. The framework includes the creation of a reliable annotated dataset with paired SEM 
+and ground truth data from EDS maps, the applications of CNNs for microstructure identification, and the validation of model performance. Specifically,
+we employed the Segment Anything Model (SAM) to align SEM images with corresponding EDS maps and focused ion beam (FIB) tomography SEM data. We evaluate several models, including Patch-based U-Net, Attention U-Net, and Residual U-Net, finding that patch-based U- Net exhibits superior segmentation performance and consistency.</p>
+
+<p>The key contributions of this work include:
+(1) Developing a new framework for data preparation in FIB-SEM tomography data.
+(2) Implementing PBCNNs for efficient segmentation of material microstructures in SEM
+images.
+(3) Performed a comprehensive analysis of state-of-the-art CNN-based SEM segmentation
+method</p>
+
+<p>Paper submitted to <em>Scientific Reports</em> (Nature) 2025, <a href="https://www.nature.com/srep/">Patch-Based Convolutional Neural Networks for Multiple Microstructural Features Detection in FIB-SEM Micrographs of Irradiated Nuclear Fuel</a>.</p>
+
+<p>This work was supported by U.S. Department of Energy (DOE), INL Laboratory Directed Research &amp; Development (LDRD)
+Program under DOE Idaho Operations Office Contract DE-AC07-05ID14517 (tracking number:
+23A1070-069FP, 24A1081-149FP, 25A1090-192FP). This research also made use of the resources of
+the High Performance Computing (HPC) Center at Idaho National Laboratory, which is
+supported by the Office of Nuclear Energy of the U.S. Department of Energy and the Nuclear
+Science User Facilities.</p>
   </section>
 
   
@@ -566,17 +645,12 @@ Using machine learning techniques, including Least Absolute Shrinkage and Select
   <span>
     
       <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/vova-lab.github.io/2024/12/30/ADFLL.html">
-        Asynchronous Decentralized Federated Lifelong Learning (ADFLL)
+      <a href="/vova-lab.github.io/2025/03/17/ALP.html">
+        Automatic Active Lesion Tracking in Multiple Sclerosis Using Unsupervised Machine Learning
       </a>
     
   </span>
   <span>
-    
-      Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/vova-lab.github.io/2024/12/30/arrhythmia.html">
-        Arrhythmia Detection and ECG Explainability
-      </a>
     
   </span>
 </div>
